@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="nl.hu.ipass.persistence.PersoonDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/PersoonDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="314" x="2681" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="nl.hu.ipass.webservices.AuthenticationFilter" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/AuthenticationFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="224" x="478" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="nl.hu.ipass.webservices.PersoonResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/PersoonResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="258" x="2227" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="nl.hu.ipass.model.FunctieService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/FunctieService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="193" x="3807" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="nl.hu.ipass.persistence.HistorieDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/HistorieDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="201" x="3259" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="nl.hu.ipass.model.Bedrijf" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Bedrijf.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="152" x="1685" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="nl.hu.ipass.webservices.MySecurityContext" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/MySecurityContext.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="258" x="742" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="nl.hu.ipass.webservices.HistorieResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/HistorieResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="166" x="3135" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="nl.hu.ipass.webservices.VerzoekResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/VerzoekResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="570" x="2525" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="nl.hu.ipass.model.BedrijfService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/BedrijfService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="188" x="3579" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="nl.hu.ipass.model.Historie" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Historie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="448" width="231" x="1956" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="nl.hu.ipass.model.VerzoekService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/VerzoekService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="208" x="2875" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="nl.hu.ipass.webservices.FunctieResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/FunctieResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="165" x="3807" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="nl.hu.ipass.model.ServiceProvider" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/ServiceProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="228" x="3341" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="nl.hu.ipass.model.HistorieService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/HistorieService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="199" x="3123" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="nl.hu.ipass.model.PersoonService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/PersoonService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="239" x="2596" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="nl.hu.ipass.persistence.VerzoekDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/VerzoekDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="184" x="3035" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="nl.hu.ipass.persistence.BedrijfDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/BedrijfDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="162" x="3500" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="nl.hu.ipass.webservices.BedrijfResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/BedrijfResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="158" x="3609" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="nl.hu.ipass.webservices.AuthenticationResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/AuthenticationResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="258" x="1040" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="nl.hu.ipass.model.Functie" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Functie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="138" x="1877" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="nl.hu.ipass.model.Persoon" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Persoon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1150" width="679" x="1877" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="nl.hu.ipass.model.SleutelService" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/SleutelService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="187" x="4040" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="nl.hu.ipass.model.Verzoek" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Verzoek.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="898" width="578" x="1338" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="nl.hu.ipass.persistence.BaseDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/BaseDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="177" x="3362" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="nl.hu.ipass.model.Sleutel" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/model/Sleutel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="152" x="2055" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="nl.hu.ipass.persistence.SleutelDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/SleutelDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="170" x="3918" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="nl.hu.ipass.persistence.FunctieDAO" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/persistence/FunctieDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="176" x="3702" y="2025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="nl.hu.ipass.webservices.SleutelResource" project="webapp" 
+    file="/webapp/src/main/java/nl/hu/ipass/webservices/SleutelResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="249" x="4012" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="30">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="31" name="service"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="34" name="functie"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="37" name="service"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="40" name="persoonService"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="43" name="HistorieDAO"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="46" name="verzoekService"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="50" name="sleutel"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="53" name="persoon"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="56" name="FunctieDAO"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="59" name="service"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="63" name="VerzoekDAO"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="66" name="service"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="69">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="70" name="service"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="73" name="SleutelDAO"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="76" name="historieService"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="79" name="PersoonDAO"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="82">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="83">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="84" name="sleutelService"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="87">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="88" name="functieService"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="91" name="service"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="94" name="bedrijfService"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="97" name="bedrijf"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="100" name="BedrijfDAO"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,31 @@
+
+input {
+	display: block;
+	box-sizing: border-box;
+}
+
+#form {
+	width: 41%;
+	overflow: hidden;
+	margin: auto;
+}
+
+#left {
+	width: 68%;
+	float: left;
+}
+
+#right {
+	float: left;
+}
+
+#indienen {
+	padding: 10px;
+	margin: auto;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+#datum_ontvangen {
+	margin-top: 15px;
+}

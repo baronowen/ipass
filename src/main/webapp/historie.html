@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Historie</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/historie.css">
+		<link rel="stylesheet" type="text/css" href="css/tabellen.css">
+	</head>
+	
+	<body>
+	
+		<ul>
+			<li><a href="keuzemod.html">Home</a>
+			<li><a href="toevoegen.html">Toevoegen Sleutel</a>
+			<li><a href="aanwezigheid.html">Aanwezigen</a>
+			<li><a class="active" href="historie.html">Historie</a>
+			<li><a href="goedkeuren.html">Goedkeuren medewerker</a>
+			<li id="loguit"><a href="inlog.html">Uitloggen</a>
+		</ul>
+		
+		<div id="frame">
+		
+			<div id="title">
+				<h1>Historie</h1>
+			</div>
+			
+			<div id="historie">
+				
+				<table id="historieTable">
+					<tbody id="historieBody">
+					<tr>
+						<th id="persoonsidHead">Persoons id</th>
+						<th id="nWerknemer">Naam Werknemer</th>
+						<th id="nBedrijf">Naam Bedrijf</th>
+						<th id="datum">Datum</th>
+						<th id="tijdBinnen">Tijd van Binnenkomst</th>
+						<th id="tijdVertrek">Tijd van Vertrek</th>
+					</tr>
+					</tbody>
+				</table>
+				
+			</div>
+			
+			<!-- Hidden -->
+			<div id="container">
+				<div class="inputRow">
+					<div>
+						<p><label for="straat">Straat: </label>
+						<label id="straat"></label></p>
+					</div>
+					<div>
+						<p><label for="huisNummer">Huis nummer: </label>
+						<label id="huisNummer"></label></p>
+					</div>
+					<div>
+						<p><label for="woonplaats">Woonplaats: </label>
+						<label id="woonplaats"></label></p>
+					</div>
+				</div>
+				<div class="inputRow">
+					<div>
+						<p><label for="postcode">Postcode: </label>
+						<label id="postcode"></label></p>
+					</div>
+					<div>
+						<p><label for="email">Email: </label>
+						<label id="email"></label></p>
+					</div>
+					<div>
+						<p><label for="telnummer">Telefoon nummer: </label>
+						<label id="telnummer"></label></p>
+					</div>
+				</div>
+			</div>
+			
+<!-- 		<div id="footer">
+				*Als hier '00:00:00' staat betekent dit dat er geen vertrek tijd bekend is!
+			</div>	-->
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		<script src="js/historie.js"></script>
+		<script src="js/loguit.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Verzoek nieuwe medewerker</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/verzoek.css">
+	</head>
+	
+	<body>
+	
+		<ul>
+			<li><a href="keuzewerk.html">Home</a>
+			<li><a class="active" href="verzoek.html">Verzoek nieuwe Medewerker</a>
+			<li id="loguit"><a href="inlog.html">Uitloggen</a>
+		</ul>
+		
+		<div id="frame">
+		
+			<div id="title">
+				<h1>Verzoek voor een nieuwe Medewerker</h1>
+			</div>
+			
+			<div id="form">
+				<form id="addVerzoek">
+					<div id="left">
+						<p>Naam Bedrijf:</p>
+						<input type="text" id="nBedrijf" required>
+						<p>Voornaam:</p>
+						<input type="text" id="nVoor" required>
+						<p>Achternaam:</p>
+						<input type="text" id="nAchter" required>
+						<p>Straat:</p>
+						<input type="text" id="straat" required>
+						<p>Huisnummer:</p>						
+						<input type="text" id="huisNummer" required>
+						<p>Woonplaats:</p>
+						<input type="text" id="woonplaats" required>
+					</div>
+					<div id="right">
+						<p>Postcode:</p>
+						<input type="text" id="postcode" required>
+						<p>Email:</p>
+						<input type="text" id="email" required>
+						<p>Geboortedatum:</p>
+						<input type="date" id="gbdatum" required>
+						<p>Geslacht:</p>
+						<input type="text" id="geslacht" placeholder="m/v" required>
+						<p>Telefoonnummer:</p>
+						<input type="text" id="telnummer" required>
+						<input type="date" id="datum_ontvangen" disabled>
+						<input type="button" id="indienen" value="Verzoek indienen">
+					</div>
+				</form>
+			</div>
+		
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		<script src="js/verzoek.js"></script>
+		<script src="js/loguit.js"></script>		
+	</body>
+	
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Aanwezigen</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/aanwezigheid.css">
+		<link rel="stylesheet" type="text/css" href="css/tabellen.css">
+	</head>
+	
+	<body>
+	
+		<ul>
+			<li><a href="keuzemod.html">Home</a>
+			<li><a href="toevoegen.html">Toevoegen Sleutel</a>
+			<li><a class="active" href="aanwezigheid.html">Aanwezigen</a>
+			<li><a href="historie.html">Historie</a>
+			<li><a href="goedkeuren.html">Goedkeuren medewerker</a>
+			<li id="loguit"><a href="inlog.html">Uitloggen</a>
+		</ul>
+		
+		<div id="frame">
+			
+			<div id="title">
+				<h1>Huidige aanwezigen</h1>
+			</div>
+			
+			<div id="aanwezigen">
+				<table id="aanwezigenTable">
+					<tbody id="aanwezigenBody">
+						<tr>
+							<th id="idWerknemer">ID werknemer</th>
+							<th id="nWerknemer">Naam Werknemer</th>
+							<th id="nBedrijf">Naam Bedrijf</th>
+							<th id="tijdBinnen">Tijd van Binnenkomst</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<!-- Hidden -->
+			<div id="container">
+				<div class="inputRow">
+					<div>
+						<p><label for="email">Email: </label>
+						<label id="email"></label></p>
+					</div>
+					<div>
+						<p><label for="telnummer">Telefoonnummer: </label>
+						<label id="telnummer"></label></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		<script src="js/aanwezigheid.js"></script>
+		<script src="js/loguit.js"></script>
+	</body>
+	
+</html>

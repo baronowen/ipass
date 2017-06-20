@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Toevoegen Sleutel</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/toevoegen.css">
+	</head>
+	
+	<body>
+	
+		<ul>
+			<li><a href="keuzemod.html">Home</a>
+			<li><a class="active" href="#toevoegen">Toevoegen Sleutel</a>
+			<li><a href="aanwezigheid.html">Aanwezigen</a>
+			<li><a href="historie.html">Historie</a>
+			<li><a href="goedkeuren.html">Goedkeuren medewerker</a>
+			<li id="loguit"><a href="inlog.html">Uitloggen</a>
+		</ul>
+		
+		<div id="frame">
+		
+			<div id="title">
+				<h1>Toevoegen Sleutel</h1>
+			</div>
+			
+			<div id="form">
+				<form id="addSleutel">
+				
+					<input type="text" placeholder="0" id="code" name="code" size="5" maxlength="5" />
+					
+					<input type="button" id="add" value="Toevoegen">
+									
+				</form>
+							
+			</div>
+		
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		<script src="js/toevoegen.js"></script>
+		<script src="js/loguit.js"></script>
+	</body>
+	
+</html>

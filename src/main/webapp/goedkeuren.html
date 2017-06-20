@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Goedkeuren medewerker</title>
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/tabellen.css">
+	</head>
+	
+	<body>
+	
+		<ul>
+			<li><a href="keuzemod.html">Home</a>
+			<li><a href="toevoegen.html">Toevoegen Sleutel</a>
+			<li><a href="aanwezigheid.html">Aanwezigen</a>
+			<li><a href="historie.html">Historie</a>
+			<li><a class="active" href="goedkeuren.html">Goedkeuren medewerker</a>
+			<li id="loguit"><a href="inlog.html">Uitloggen</a>
+		</ul>
+		
+		<div id="frame">
+		
+			<div id="title">
+				<h1>Goedkeuren nieuwe medewerker</h1>
+			</div>
+			
+			<div id="verzoeken">
+			
+				<table id="verzoekTable">
+					<thead id="verzoekBody">
+					<tr>
+						<th id="verzoekidhead">Verzoekid</th>
+						<th id="nWerknemer">Naam Werknemer</th>
+						<th id="nBedrijf">Naam Bedrijf</th>
+						<th id="datum">Ontvangst Datum</th>
+					</tr>
+					</thead>
+				</table>
+			</div>
+			
+			<!-- Hidden -->
+			<div id="container">
+				<form id="goedkeuren">
+					<div class="inputRow">
+						<div>
+							<p><label for="nBedrijf">Naam bedrijf: </label>
+							<input id="nBedrijf" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="nVoor">Voornaam: </label>
+							<input id="nVoor" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label id="Achter" for="nAchter">Achternaam: </label>
+							<input id="nAchter" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="straat">Straat: </label>
+							<input id="straat" type="text" class="inputField"></p>
+						</div>
+					</div>
+					<div class="inputRow">
+						<div>
+							<p><label for="huisNummer">Huis nummer: </label>
+							<input id="huisNummer" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="woonplaats">Woonplaats: </label>
+							<input id="woonplaats" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="postcode">Postcode: </label>
+							<input id="postcode" type="text" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="email">Email: </label>
+							<input id="email" type="text" placeholder="something@something.something" class="submit"></p>
+						</div>
+					</div>
+					<div class="inputRow">
+						<div>
+							<p><label for="gbdatum">Geboorte datum: </label>
+							<input id="gbdatum" type="date" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="geslacht">Geslacht: </label>
+							<input id="geslacht" type="text" placeholder="m/v" class="inputField"></p>
+						</div>
+						<div>
+							<p><label for="telnummer">Telefoonnummer: </label>
+							<input id="telnummer" type="text" class="inputField"></p>
+							<input id="submit" type="button" value="Verzenden" class="submit">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+		<script src="js/goedkeuren.js"></script>
+		<script src="js/loguit.js"></script>
+	</body>
+	
+</html>
