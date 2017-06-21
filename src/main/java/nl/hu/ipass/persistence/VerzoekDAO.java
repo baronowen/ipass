@@ -45,6 +45,8 @@ public class VerzoekDAO extends BaseDAO {
 						aanwezig, datum_ontvangen));
 				
 			}
+			rs.close();
+			pstat.close();
 			
 		} catch(SQLException s) {
 			s.printStackTrace();
@@ -126,6 +128,8 @@ public class VerzoekDAO extends BaseDAO {
 			
 			pstat.executeUpdate();
 			
+			pstat.close();
+			
 		} catch (SQLException s) {
 			s.printStackTrace();
 		}
@@ -140,6 +144,8 @@ public class VerzoekDAO extends BaseDAO {
 			
 			p.executeUpdate();
 //			System.out.println("Verzoek verwijderd!");
+			
+			p.close();
 			
 		} catch (SQLException s) {
 			s.printStackTrace();

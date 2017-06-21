@@ -170,7 +170,11 @@ public class PersoonDAO extends BaseDAO {
 	
 	public String findRoleForEmailAndPassword(String email, String wachtwoord) {
 		String role = null;
-		String query = "SELECT f.naam FROM functie f, persoon p WHERE p.functieid = f.functieid AND (p.email = ? AND p.wachtwoord = ?)";
+		String query = "SELECT f.naam "
+				+ "FROM functie f, persoon p "
+				+ "WHERE p.functieid = f.functieid "
+				+ "AND (p.email = ? "
+				+ "AND p.wachtwoord = ?)";
 		
 		try (Connection conn = super.getConnection()) {
 			
@@ -184,6 +188,9 @@ public class PersoonDAO extends BaseDAO {
 				role = rs.getString("naam");
 				System.out.println(role);
 			}
+			
+			rs.close();
+			pstat.close();
 			
 		} catch (SQLException s) {
 			s.printStackTrace();
@@ -219,6 +226,7 @@ public class PersoonDAO extends BaseDAO {
 			
 			pstat.executeUpdate();
 			
+			pstat.close();
 		} catch (SQLException s) {
 			s.printStackTrace();
 		}

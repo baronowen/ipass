@@ -40,6 +40,18 @@ $("#indienen").click(function(response) {
 		$.post("restservices/verzoeken", data, function(response) {
 //			console.log(JSONdata);
 			alert("Verzoek ingediend!");
+			$("#nBedrijf").val('');
+			$("#nVoor").val('');
+			$("#nAchter").val('');
+			$("#straat").val('');
+			$("#huisNummer").val('');
+			$("#woonplaats").val('');
+			$("#postcode").val('');
+			$("#email").val('');
+			$("#gbdatum").val('');
+			$("#geslacht").val('');
+			$("#telnummer").val('');
+			
 		})
 	}
 })

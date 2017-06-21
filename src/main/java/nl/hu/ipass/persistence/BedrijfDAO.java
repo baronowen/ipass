@@ -15,7 +15,8 @@ public class BedrijfDAO extends BaseDAO {
 		List<Bedrijf> bedrijven = new ArrayList<Bedrijf>();
 		
 		try (Connection conn = super.getConnection()) {
-			PreparedStatement pstat = conn.prepareStatement("SELECT * FROM bedrijf");
+			PreparedStatement pstat = conn.prepareStatement("SELECT * "
+					+ "FROM bedrijf");
 			ResultSet rs = pstat.executeQuery();
 			
 			while (rs.next()) {
@@ -25,6 +26,10 @@ public class BedrijfDAO extends BaseDAO {
 				
 				bedrijven.add(new Bedrijf(bedrijfsid, naam, locatie));
 			}
+			
+			rs.close();
+			pstat.close();
+			
 		} catch(SQLException s) {
 			s.printStackTrace();
 		}
@@ -35,7 +40,9 @@ public class BedrijfDAO extends BaseDAO {
 		List<Bedrijf> bedrijven = new ArrayList<Bedrijf>();
 		
 		try (Connection conn = super.getConnection()) {
-			PreparedStatement pstat = conn.prepareStatement("SELECT * FROM bedrijf WHERE bedrijfsid = '" + id + "'");
+			PreparedStatement pstat = conn.prepareStatement("SELECT * "
+					+ "FROM bedrijf "
+					+ "WHERE bedrijfsid = '" + id + "'");
 			ResultSet rs = pstat.executeQuery();
 			
 			while (rs.next()) {

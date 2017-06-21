@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
+ <!--  
 <Context>
 	<Resource name="jdbc/MySQL"
 	url="jdbc:mysql://localhost:3306/ipass_test"
@@ -9,7 +9,8 @@
 	username="java"
 	password="password"/>
 </Context>
-<!--
+-->
+
 <Context>
 	<Resource name="jdbc/PostgresDS"
 	url="jdbc:postgresql://localhost:5432/ipass"
@@ -19,4 +20,4 @@
 	username="postgres"
 	password="Merlijn26"/>
 </Context>
--->
+

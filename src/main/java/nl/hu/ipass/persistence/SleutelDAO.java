@@ -26,6 +26,9 @@ public class SleutelDAO extends BaseDAO {
 				sleutels.add(new Sleutel(sleutelid, sleutelcode));
 			}
 			
+			rs.close();
+			pstat.close();
+			
 		} catch (SQLException s) {
 			s.printStackTrace();
 		}
@@ -42,6 +45,8 @@ public class SleutelDAO extends BaseDAO {
 			p.setInt(1, sleutel.getSleutelcode());
 			
 			p.executeUpdate();
+			
+			p.close();
 			
 		} catch (SQLException s) {
 			s.printStackTrace();
@@ -68,6 +73,9 @@ public class SleutelDAO extends BaseDAO {
 				pstat.close();
 				return sleutels.get(0);
 			}
+			
+			rs.close();
+			pstat.close();
 			
 		} catch (SQLException s) {
 			s.printStackTrace();

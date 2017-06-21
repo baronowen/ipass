@@ -68,6 +68,56 @@ function getVerzoek(id) {
 	})
 }
 
+
+
+function verzendVerzoek(id) {
+	var bedrijf = $("#hiddenid" + id).find("#nBedrijf").val();
+	var voornaam = $("#hiddenid" + id).find("#nVoor").val();
+	var achternaam = $("#hiddenid" + id).find("#nAchter").val();
+	var straat = $("#hiddenid" + id).find("#straat").val();
+	var huisnummer = $("#hiddenid" + id).find("#huisNummer").val();
+	var woonplaats = $("#hiddenid" + id).find("#woonplaats").val();
+	var postcode = $("#hiddenid" + id).find("#postcode").val();
+	var email = $("#hiddenid" + id).find("#email").val();
+	var gbdatum = $("#hiddenid" + id).find("#gbdatum").val();
+	var geslacht = $("#hiddenid" + id).find("#geslacht").val();
+	var telnummer = $("#hiddenid" + id).find("#telnummer").val();
+	
+//	if (checkForm() == true) {
+	var data = { "nBedrijf": bedrijf,
+			"nVoor": voornaam,
+			"nAchter": achternaam,
+			"straat": straat,
+			"huisNummer": huisnummer,
+			"woonplaats": woonplaats,
+			"postcode": postcode,
+			"email": email,
+			"gbdatum": gbdatum,
+			"geslacht": geslacht,
+			"telnummer": telnummer,
+	}
+	console.log(data);
+	var JSONdata = JSON.stringify(data);
+//	console.log(JSONdata);
+	
+	$.post("restservices/personen", data, function(response) {
+		console.log("works");
+		alert("Persoon toegevoegd!");
+		
+//		$.ajax("restservices/verzoeken/" + id, {
+//			type: "delete",
+//			success: function(response) {
+//				alert("verzoek verwijderd!");
+//			},
+//			error: function(response) {
+//				console.log("Verwijderen mislukt!");
+//			}
+//		})
+		
+	})
+//	}	
+}
+
 function checkForm() {
 	if (bedrijf == "") {
 		alert("Bedrijfsnaam moet worden ingevuld!");
@@ -126,56 +176,5 @@ function checkForm() {
 		return false;
 	}
 	return true;
-}
-
-function verzendVerzoek(id) {
-	var bedrijf = $("#hiddenid" + id).find("#nBedrijf").val();
-	var voornaam = $("#hiddenid" + id).find("#nVoor").val();
-	var achternaam = $("#hiddenid" + id).find("#nAchter").val();
-	var straat = $("#hiddenid" + id).find("#straat").val();
-	var huisnummer = $("#hiddenid" + id).find("#huisNummer").val();
-	var woonplaats = $("#hiddenid" + id).find("#woonplaats").val();
-	var postcode = $("#hiddenid" + id).find("#postcode").val();
-	var email = $("#hiddenid" + id).find("#email").val();
-	var gbdatum = $("#hiddenid" + id).find("#gbdatum").val();
-	var geslacht = $("#hiddenid" + id).find("#geslacht").val();
-	var telnummer = $("#hiddenid" + id).find("#telnummer").val();
-	
-	if (checkForm() == true) {
-		
-	
-	
-		var data = { "nBedrijf": bedrijf,
-				"nVoor": voornaam,
-				"nAchter": achternaam,
-				"straat": straat,
-				"huisNummer": huisnummer,
-				"woonplaats": woonplaats,
-				"postcode": postcode,
-				"email": email,
-				"gbdatum": gbdatum,
-				"geslacht": geslacht,
-				"telnummer": telnummer,
-		}
-		console.log(data);
-		var JSONdata = JSON.stringify(data);
-	//	console.log(JSONdata);
-		
-		$.post("restservices/personen", data, function(response) {
-			console.log("works");
-			alert("Persoon toegevoegd!");
-			
-	//		$.ajax("restservices/verzoeken/" + id, {
-	//			type: "delete",
-	//			success: function(response) {
-	//				alert("verzoek verwijderd!");
-	//			},
-	//			error: function(response) {
-	//				console.log("Verwijderen mislukt!");
-	//			}
-	//		})
-			
-		})
-	}	
 }
 
