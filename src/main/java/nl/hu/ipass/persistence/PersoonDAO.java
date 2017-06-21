@@ -128,7 +128,7 @@ public class PersoonDAO extends BaseDAO {
 		BedrijfDAO bdao = new BedrijfDAO();
 		
 		try (Connection conn = super.getConnection()) {
-			PreparedStatement pstat = conn.prepareStatement("SELECT * FROM persoon WHERE aanwezig = 1");
+			PreparedStatement pstat = conn.prepareStatement("SELECT * FROM persoon WHERE aanwezig = true");
 			ResultSet rs = pstat.executeQuery();
 			
 			while (rs.next()) {

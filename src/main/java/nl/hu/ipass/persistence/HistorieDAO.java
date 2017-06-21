@@ -23,7 +23,7 @@ public class HistorieDAO extends BaseDAO {
 			PreparedStatement pstat = conn.prepareStatement("SELECT h.* "
 					+ "FROM historie h, persoon p "
 					+ "WHERE h.persoonsid = p.persoonsid "
-					+ "AND (p.aanwezig != 1 OR vertrek_tijd != '00:00:00')");
+					+ "AND (p.aanwezig != true OR vertrek_tijd != '00:00:00')");
 			ResultSet rs = pstat.executeQuery();
 			
 			while (rs.next()) {
