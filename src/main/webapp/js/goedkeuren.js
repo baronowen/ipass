@@ -1,7 +1,7 @@
 $(document).ready(initPage());
 
 function initPage() {
-	console.log("Initializing page!");
+//	console.log("Initializing page!");
 	
 	loadVerzoeken();
 }
@@ -40,7 +40,7 @@ function hideShow() {
 		} else {
 			$target.closest("tr").next().find("#wrapper").slideToggle();
 			getVerzoek($target.closest("tr").find("#verzoekid").text());
-			console.log($target.closest("tr").find("#verzoekid").text());
+//			console.log($target.closest("tr").find("#verzoekid").text());
 		}
 	});
 }
@@ -96,21 +96,23 @@ function verzendVerzoek(id) {
 			"geslacht": geslacht,
 			"telnummer": telnummer,
 	}
-	console.log(data);
+//	console.log(data);
 	var JSONdata = JSON.stringify(data);
 //	console.log(JSONdata);
 	
 	$.post("restservices/personen", data, function(response) {
-		console.log("works");
+//		console.log("works");
 		alert("Persoon toegevoegd!");
 		
 		$.ajax("restservices/verzoeken/" + id, {
 			type: "delete",
 			success: function(response) {
 				alert("verzoek verwijderd!");
+				location.reload();
 			},
 			error: function(response) {
-				console.log("Verwijderen mislukt!");
+				alert("Verwijderen mislukt");
+//				console.log("Verwijderen mislukt!");
 			}
 		})
 		

@@ -30,7 +30,7 @@ function loadHistorie() {
 			hideShow();
 		},
 		error: function(textStatus, errorThrown) {
-			console.log(textStatus);
+//			console.log(textStatus);
 		}
 	})
 }

@@ -81,9 +81,9 @@ public class VerzoekResource {
 	@DELETE
 	@Path("/{id}")
 	public Response deleteVerzoek(@PathParam("id") int id) {
-		System.out.println(id);
-		Verzoek verzoek = service.getVerzoekById(id);
-		System.out.println(verzoek);
+//		System.out.println(id);
+//		Verzoek verzoek = service.getVerzoekById(id);
+//		System.out.println(verzoek);
 		service.deleteVerzoek(id);
 		
 		return Response.ok().build();

@@ -19,7 +19,7 @@ $("#add").click(function(response) {
 //			}
 //		})
 		$.post("restservices/sleutels", data, function(response) {
-			console.log(JSON.stringify(response));
+//			console.log(JSON.stringify(response));
 			alert("Sleutel toegevoegd!");
 			$("#code").val('');
 			

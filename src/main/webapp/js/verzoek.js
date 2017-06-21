@@ -69,9 +69,10 @@ function checkForm() {
 	var geslacht = document.forms["addVerzoek"]["geslacht"].value;
 	var telefoonnummer = document.forms["addVerzoek"]["telnummer"].value;
 
-	console.log(bedrijf + "-" + voornaam + "-" + achternaam + "-" + straat
-			+ "-" + huisnummer + "-" + woonplaats + "-" + postcode + "-"
-			+ email + "-" + gbdatum + "-" + geslacht + "-" + telefoonnummer);
+//	console.log(bedrijf + "-" + voornaam + "-" + achternaam + "-" + straat
+//			+ "-" + huisnummer + "-" + woonplaats + "-" + postcode + "-"
+//			+ email + "-" + gbdatum + "-" + geslacht + "-" + telefoonnummer);
+	
 	if (bedrijf == "") {
 		alert("Bedrijfsnaam moet worden ingevuld!");
 		return false;
