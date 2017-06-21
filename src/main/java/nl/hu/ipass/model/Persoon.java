@@ -11,6 +11,7 @@ public class Persoon {
 	private String woonplaats;
 	private String postcode;
 	private String email;
+	
 	private Date gbdatum;
 	private String gbdatumS;
 	
@@ -37,7 +38,7 @@ public class Persoon {
 		this.woonplaats = woonplaats;
 		this.postcode = postcode;
 		this.email = email;
-		this.setGbdatumS(gbdatumS);
+		this.gbdatumS = gbdatumS;
 		this.geslacht = geslacht;
 		this.telnummer = telnummer;
 //		this.wachtwoord = wachtwoord;
@@ -120,7 +121,7 @@ public class Persoon {
 	public String toString() {
 		return "Persoon [persoonsid=" + persoonsid + ", voornaam=" + voornaam + ", achternaam=" + achternaam
 				+ ", straat=" + straat + ", huisnummer=" + huisnummer + ", woonplaats=" + woonplaats + ", postcode="
-				+ postcode + ", email=" + email + ", gbdatum=" + gbdatum + ", geslacht=" + geslacht + ", telnummer="
+				+ postcode + ", email=" + email + ", gbdatum=" + gbdatum + gbdatumS + ", geslacht=" + geslacht + ", telnummer="
 				+ telnummer + ", wachtwoord=" + wachtwoord + ", aanwezig=" + aanwezig + "]";
 	}
 

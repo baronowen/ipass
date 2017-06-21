@@ -108,7 +108,7 @@ public class VerzoekDAO extends BaseDAO {
 					+ "straat, huisnummer, woonplaats, "
 					+ "postcode, email, gbdatum, "
 					+ "geslacht, telefoonnummer, datum_ontvangen) "
-					+ "VALUES(?,?,?,	?,?,?,		?,?,?,		?,?,?)");
+					+ "VALUES(?,?,?,	?,?,?,	?,?,?,	?,?,?)");
 			
 			pstat.setString(1, verzoek.getNaam_bedrijf());
 			pstat.setString(2, verzoek.getVoornaam());

@@ -168,10 +168,10 @@ public class PersoonResource {
 			@FormParam("gbdatum") String gbdatum,
 			@FormParam("geslacht") String geslacht,
 			@FormParam("telnummer") String telnummer) throws ParseException {
-		System.out.println("komt hier");
+		System.out.println("komt hier" + gbdatum);
 		Persoon persoon = new Persoon(nVoor, nAchter, straat, huisNummer,
 				woonplaats, postcode, email, gbdatum, geslacht, telnummer);
-		System.out.println(persoon);
+//		System.out.println(persoon);
 		service.addPersoon(persoon);
 		
 		return persoonToJson(persoon).build().toString();

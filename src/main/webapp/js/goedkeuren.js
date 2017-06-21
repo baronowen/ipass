@@ -104,15 +104,15 @@ function verzendVerzoek(id) {
 		console.log("works");
 		alert("Persoon toegevoegd!");
 		
-//		$.ajax("restservices/verzoeken/" + id, {
-//			type: "delete",
-//			success: function(response) {
-//				alert("verzoek verwijderd!");
-//			},
-//			error: function(response) {
-//				console.log("Verwijderen mislukt!");
-//			}
-//		})
+		$.ajax("restservices/verzoeken/" + id, {
+			type: "delete",
+			success: function(response) {
+				alert("verzoek verwijderd!");
+			},
+			error: function(response) {
+				console.log("Verwijderen mislukt!");
+			}
+		})
 		
 	})
 //	}	

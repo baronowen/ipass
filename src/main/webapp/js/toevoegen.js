@@ -5,6 +5,19 @@ $("#add").click(function(response) {
 //		alert("geldige code ingevoerd");
 		var data = $("#addSleutel").serialize();
 //		console.log(data);
+//		$.ajax({
+//			url: "restservices/sleutels",
+//			method: "POST",
+//			beforeSend: function (xhr) {
+//				var token = window.sessionStorage.getItem("sessionToken");
+//				xhr.setRequestHeader( 'Authorization', 'Bearer ' + token);
+//			},
+//			succes: function (response) {
+//				console.log(JSON.stringify(response));
+//				alert("Sleutel toegevoegd!");
+//				$("#code").val('');
+//			}
+//		})
 		$.post("restservices/sleutels", data, function(response) {
 			console.log(JSON.stringify(response));
 			alert("Sleutel toegevoegd!");
@@ -12,8 +25,6 @@ $("#add").click(function(response) {
 			
 		});
 	}
-
-
 });
 
 function checkForm() {

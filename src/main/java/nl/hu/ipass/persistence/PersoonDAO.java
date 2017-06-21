@@ -186,7 +186,7 @@ public class PersoonDAO extends BaseDAO {
 			
 			if (rs.next()) {
 				role = rs.getString("naam");
-				System.out.println(role);
+//				System.out.println(role);
 			}
 			
 			rs.close();
@@ -201,11 +201,8 @@ public class PersoonDAO extends BaseDAO {
 	
 	public void savePersoon(Persoon persoon) throws ParseException {
 		try (Connection conn = super.getConnection()) {
-			PreparedStatement pstat = conn.prepareStatement("INSERT "
-					+ "INTO persoon (voornaam, achternaam, straat, "
-					+ "huisnummer, woonplaats, postcode, email, "
-					+ "gbdatum, geslacht, telefoonnummer) "
-					+ "VALUES(?,?,?, ?,?,?,?, ?,?,?");
+			PreparedStatement pstat = conn.prepareStatement("INSERT INTO persoon (voornaam, achternaam, straat, huisnummer, woonplaats, postcode, email, gbdatum, geslacht, telefoonnummer) "
+					+ "VALUES(?,?,?, ?,?,?,?, ?,?,?)");
 			
 			pstat.setString(1, persoon.getVoornaam());
 			pstat.setString(2, persoon.getAchternaam());
@@ -216,6 +213,8 @@ public class PersoonDAO extends BaseDAO {
 			pstat.setString(6, persoon.getPostcode());
 			pstat.setString(7, persoon.getEmail());
 			
+//			System.out.println(persoon.getGbdatumS());
+			
 			pstat.setDate(8, fromStringToDate(persoon.getGbdatumS()));
 			pstat.setString(9, persoon.getGeslacht());
 			pstat.setString(10, persoon.getTelnummer());
@@ -223,8 +222,10 @@ public class PersoonDAO extends BaseDAO {
 			
 //			pstat.setString(11, persoon.getBedrijf().getNaam());
 //			System.out.println(persoon.getBedrijf().getNaam());
-			
+//			System.out.println(pstat.toString());
 			pstat.executeUpdate();
+			
+			
 			
 			pstat.close();
 		} catch (SQLException s) {
